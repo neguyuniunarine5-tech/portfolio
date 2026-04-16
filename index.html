@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/6952b55733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<div id="header">
+    <div class="container">
+        <nav>
+            <div class="image-text">
+    <p>Transforming ideas into reality</p>
+    <h1>Hi, I'm <span>Unarine</span><br>Neguyuni</h1>
+    
+</div>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+
+        
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/profile.jpg" alt="Profile picture">
+
+
+</div>
+            
+
+<div class="about-col-2">
+
+
+    <h1 class="sub-title">About Me</h1>
+    <p>
+       Hi, I’m Unarine Neguyuni, an 18-year-old  boy from Tshidimbini a small township just outside Thohoyandou.I'm a second year Computer Science student at the University of Venda.
+        I'm passionate about innovative solutions and exploring the endless possibilities of technology. I’m someone who enjoys balancing life between sports, social time, and building things in tech.
+
+I’m a big soccer fan, inspired by players like Relebohile Mofokeng as I support Orlando Pirates along with international teams like Manchester City and FC Barcelona. Football is more than just a game for me—it’s something that motivates and connects me.
+
+Outside of sports, I enjoy going out, spending time with friends and making the most of my youth. At the same time, I have a strong interest in technology. I like staying up at night fixing bugs, learning new things, and building interesting projects. That process of solving problems and creating something from scratch is what drives me.
+
+I’m someone who enjoys both the energy of social life and the focus of working on my own ideas. I’m always looking to grow, improve my skills and explore new possibilities in tech while staying true to where I come from. 
+        I have developed skills in Java, C++ and SQL. Now I am currently learning about machine learning and artificial intelligence.
+    </p>
+
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills-tools', event)">Skills-Tools</p>
+        <p class="tab-links" onclick="opentab('academicbackground', event)">Academic Background</p>
+        <p class="tab-links" onclick="opentab('academicgoals', event)">Academic Goals</p>
+    </div>
+
+    <div class="tab-contents active-tab" id="skills-tools">
+        <ul>
+            <li><span>Programming Languages</span><br>Java, C++, SQL, HTML, CSS, Python</li>
+            <li><span>Development Tools</span><br>VS Code, Code::Blocks, NetBeans</li>
+        </ul>
+    </div>
+
+    <div class="tab-contents" id="academicbackground">
+        <ul>
+            <li>When i started my journey in Computer Science,i knew nothing, no code, no concepts, no clue.But as i dove headfirst into the world of programming,i discovered a realm of endless possibilities.I've transformed my initial uncertainty into a passion for programming</li>
+        </ul>
+    </div>
+
+    <div class="tab-contents" id="academicgoals">
+        <ul>
+            <li>My goal is to continue learning and growing in the field of Computer Science,i'm excited to apply my skills to real world problems and making a positive impact through my work.As Bill Gates once said "The future belongs to those who believe in the beauty of their dreams."</li>
+        </ul>
+    </div>
+</div>
+
+
+
+
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Budget Planner</h2>
+                <p>A budget planning application built using java that allows users to track their income and expenses,providing a simple and effective way to manage finance.</p>
+        
+            </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Hospital Database</h2>
+                    <p>A hospital database management system built using SQL that allows for efficient storage and retrieval of patient information, medical records, and hospital resources.</p>
+                </div>
+                <div>
+                    <i class="fa-brands fa-python"></i>
+                    <h2>8 Puzzle Solver</h2>
+                    <p>An 8 Puzzle solver application built using Python that uses algorithms to find the shortest path to solve the puzzle,providing a fun and challenging problem solving experience.</p>
+                    
+                </div>
+        </div>
+    </div>
+ </div>
+
+ 
+<div id="contact">
+<div class="container">
+    <div class="row"> 
+     <div class ="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i> neguyuniunarine5@gmail.com</p>
+        <P><i class="fa-solid fa-phone"></i>0678633201</P>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/unarine-neguyuni-a7b663364?utm_source=share_via&utm_content=profile&utm_medium=member_ios"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.instagram.com/una_rine.6?igsh=ZnA5NDk4YTUxdXhn&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.facebook.com/share/18TcjkVEBh/?mibextid=wwXIfr"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+     </div>
+     
+     </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>@2026 Neguyuni Unarine.All right reserved</p>
+</div>
+</div>
+
+    
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
